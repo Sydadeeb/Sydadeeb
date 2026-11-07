@@ -5,6 +5,8 @@ camera, one set of objects) is choreographed by one GSAP ScrollTrigger. The
 shopping UI is ordinary, accessible DOM and stays usable at every point in the
 film.
 
+![Story beats and collection, rendered in headless Chromium](docs/preview.png)
+
 ```bash
 npm install
 npm run dev     # http://localhost:3000
