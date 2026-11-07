@@ -72,18 +72,18 @@ src/
 
 ## Brand assets: required before launch
 
-No official Pista House packaging, photography or logo was available while
-building this, so **none were invented**:
+No official Pista House packaging was available while building this, so
+**none was invented**:
 
-- The nav shows the name "Pista House" in plain type, not an imitation of the
-  logo.
+- The nav uses the official logo (`public/brand/logo.svg`, copied unchanged
+  from the `pista-house` repo's `assets/logo-polished-mark.svg`).
 - The gift box is an **unbranded** ivory presentation box.
 
 To add the real assets, put the files in `public/brand/` and set the paths in
 `src/lib/brand.ts`:
 
 ```ts
-logo: '/brand/logo.svg',
+logo: 'brand/logo.svg',
 packaging: { hamper: '/brand/hamper-front.jpg', ... },
 ```
 

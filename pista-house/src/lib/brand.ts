@@ -17,7 +17,7 @@ export const BRAND_ASSETS: {
   packaging: Record<'hamper' | 'roat' | 'biscuits' | 'cookies', string | null>;
   models: Record<'handi' | 'roat' | 'biscuit' | 'cookie' | 'hamper', string | null>;
 } = {
-  logo: null,
+  logo: 'brand/logo.svg',
   packaging: {
     hamper: null,
     roat: null,
